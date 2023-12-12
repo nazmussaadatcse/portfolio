@@ -41,11 +41,11 @@ const Projects = () => {
 
 
     return (
-        <div>
-            <h2 className="text-center text-3xl underline decoration-double">Projects</h2>
+        <div className="bg-white">
+            <h2 className="text-center p-8 text-3xl underline decoration-double">Projects</h2>
             <div className="container mx-auto py-8">
                 {projects.map((project) => (
-                    <div key={project.id} className="flex flex-col md:flex-row items-center justify-center border border-gray-300 bg-slate-100 rounded-md mb-8 mx-2">
+                    <div key={project.id} className="flex flex-col md:flex-row items-center justify-center border  rounded-md mb-8 mx-2">
                         <div className="md:w-1/3 p-4">
                             <img src={project.image} alt={project.name} className="w-full h-auto" />
                         </div>
