@@ -5,8 +5,8 @@ const Skills = () => {
     const [skills] = useSkills();
 
     return (
-        <div className="my-16 bg-slate-100">
-            <h2 className="text-center text-3xl underline decoration-double">Skills</h2>
+        <div className=" bg-slate-100">
+            <h2 className="text-center text-3xl underline decoration-double p-4">Skills</h2>
             <div className="container flex-row lg:flex items-center mx-auto gap-16">
                 <div className="w-full lg:w-1/2 mx-auto">
 
@@ -27,7 +27,53 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
-            
+            <div className="pl-4 py-4 md:pl-12">
+                <div className="">
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">JavaScript</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">React</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">NodeJs</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">ExpressJs</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">MongoDB</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Firebase</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">React Query</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Rest API</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Tailwind</li>
+                    </ul>
+                </div>
+                <div className="">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">VS Code</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Git</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Github</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Netlify</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Vercel</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Canva</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Figma</li>
+                    </ul>
+                </div>
+                <div className="">
+                    <h3>Comfortable</h3>
+                    <ul>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">NextJs</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">TypeScript</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Mongoose</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">JWT</li>
+                    </ul>
+                </div>
+                <div className="">
+                    <h3>Familiar</h3>
+                    <ul>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">C</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Python</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Redux</li>
+                        <li className="btn btn-xs m-1 bg-white hover:bg-white">Socket.io</li>
+                    </ul>
+                </div>
+                
+            </div>
         </div>
     );
 };

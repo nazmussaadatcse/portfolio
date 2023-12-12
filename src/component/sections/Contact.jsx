@@ -19,7 +19,7 @@ const Contact = () => {
                         <Lottie className="w-full lg:w-1/2 p-4" animationData={contact} />
 
                     </div>
-                    <div className="lg:w-1/2 text-xl p-4 border-l-4 border-gray-500">
+                    <div className="lg:w-1/2 p-4 border-l-4 border-gray-500">
                         <h2 className="text-2xl font-semibold mb-2 mt-4">Contact Information</h2>
                         <div className="flex items-center gap-1">
                             <MdEmail></MdEmail>
